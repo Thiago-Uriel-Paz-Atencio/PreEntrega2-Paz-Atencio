@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    display: flex;
+    background-color: rgb(49, 49, 49);
+}
+.logo{
+    display: flex;
+    margin-left: 12.5rem;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 4.75rem;
+    padding: 0rem 1.875rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+}
+.navegacion{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 1.875rem;
+    margin-right: .625rem;
+    align-items: center;
+}
+.navbar li a{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.buscador{
+    padding: .5rem;
+    border-radius: 1.25rem;
+    background-color: black;
+    margin: .3125rem;
+}
+.login{
+    padding: 8px;
+    border-radius: .3125rem;
+    background-color: azure;
+}
+main{
+    margin: 1.875rem 12.5rem 1.875rem 12.5rem;
+}
+.mainbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.titulo-index{
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.titulos-politicas{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.titulos-politicas p{
+    background-color: black;
+    color: white;
+    text-transform: initial;
+}
+.titulo-chiquito{
+    font-weight: bolder;
+    font-size: small;
+    text-transform: uppercase;
+    margin-top: .3125rem;
+}
+.card-name p{
+    color: black;
+    text-transform: capitalize;
+    font-size: medium;
+    overflow: hidden;
+}
+.footbar li a{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-decoration-line: none;
+}
+.titulos-importantes{
+    font-weight: 100;
+    font-size: large;
+    text-transform: capitalize;
+}
+.titulos-importantes p{
+    background-color: black;
+    color: white;
+}
+.titulo-de-animes-en-emision{
+    margin-bottom: 1.25rem;
+}
+.texto{
+    text-transform: capitalize;
+}
+.contenedor-cards{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+.ultimos-episodios{
+    display: flex;
+    width: 91%;
+}
+.card{  
+    width: 15.625rem;
+    height: 10rem;
+    border-radius: .3125rem;
+    box-shadow: .3125rem .3125rem .625rem black;
+    overflow: clip;
+}
+.card .card-img{
+    width: 100%;
+    height: 80%;
+}
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anime-emision{
+    display: flex;
+}
+.contenedor-animes{
+    display: flex;
+    height: 100%;
+    width: 400px;
+    justify-content: center;
+    margin-top: 1.875rem;
+}
+.section-1{
+    display: flex;
+}
+.titulo-anime{
+    display: flex;
+}
+.nombre-de-los-animes{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-card-2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+.ultimos-animes-agregados{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-left: 7.5rem;
+}
+.card-2{
+    overflow: clip;
+    width: 18.75rem;
+    height: 25rem;
+    border-radius: .3125rem;
+    box-shadow: .3125rem .3125rem .625rem black;
+}
+.card-2 .img-2{
+    width: 100%;
+    height: 80%;
+}
+.card-2 .img-2 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    padding: 3.75rem 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+}
+.pie-pagina{
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+}
+.footbar{
+    list-style: none;
+    text-decoration-line: none;
+}
